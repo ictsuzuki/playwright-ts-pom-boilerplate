@@ -15,8 +15,8 @@ test.describe('Salary range test cases', () => {
 
     await salaryInsightsPage.checkSlaryPerRoleAndCountry(ROLES.ACCOUNTANT, COUNTRIES.BRAZIL);
     
-    expect(salaryInsightsPage.getTitleResultElem).toContainText(ROLES.ACCOUNTANT);
-    expect(salaryInsightsPage.getTitleResultElem).toContainText(COUNTRIES.BRAZIL);
+    await expect(salaryInsightsPage.getTitleResultElem).toContainText(ROLES.ACCOUNTANT);
+    await expect(salaryInsightsPage.getTitleResultElem).toContainText(COUNTRIES.BRAZIL);
     expect(salaryInsightsPage.getSalaryAmountElem).not.toBeNull();
   });
 
@@ -25,8 +25,8 @@ test.describe('Salary range test cases', () => {
 
     await salaryInsightsPage.checkSlaryPerRoleAndCountry(ROLES.QA_ENGINEER, COUNTRIES.CANADA);
     
-    expect(salaryInsightsPage.getTitleResultElem).toContainText(ROLES.QA_ENGINEER);
-    expect(salaryInsightsPage.getTitleResultElem).toContainText(COUNTRIES.CANADA);
+    await expect(salaryInsightsPage.getTitleResultElem).toContainText(ROLES.QA_ENGINEER);
+    await expect(salaryInsightsPage.getTitleResultElem).toContainText(COUNTRIES.CANADA);
     expect(salaryInsightsPage.getSalaryAmountElem).not.toBeNull();
   });
 
@@ -35,8 +35,8 @@ test.describe('Salary range test cases', () => {
 
     await salaryInsightsPage.checkSlaryPerRoleAndCountry(ROLES.SOFTWARE_ENGINEER, COUNTRIES.JAPAN);
     
-    expect(salaryInsightsPage.getTitleResultElem).toContainText(ROLES.SOFTWARE_ENGINEER);
-    expect(salaryInsightsPage.getTitleResultElem).toContainText(COUNTRIES.JAPAN);
+    await expect(salaryInsightsPage.getTitleResultElem).toContainText(ROLES.SOFTWARE_ENGINEER);
+    await expect(salaryInsightsPage.getTitleResultElem).toContainText(COUNTRIES.JAPAN);
     expect(salaryInsightsPage.getSalaryAmountElem).not.toBeNull();
   });
 })
