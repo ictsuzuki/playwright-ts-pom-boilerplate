@@ -14,7 +14,7 @@ Ensure you have the following prerequisites installed:
 ### Installation
 1.- Clone the github **repository** to the desired folder
 ```
-git clone https://github.com/ictsuzuki/deel_interview.git
+git clone https://github.com/ictsuzuki/playwright-ts-pom-boilerplate.git
 ```
 2.- Run your code editor and open the project folder
 
