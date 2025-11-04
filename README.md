@@ -1,7 +1,7 @@
 
 # Project Title
 
-This project has been created as an assessment for a Deel interview.
+This project was created for a case study..
 
 ## Getting started
 
