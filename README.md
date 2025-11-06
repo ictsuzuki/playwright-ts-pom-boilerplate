@@ -20,7 +20,7 @@ git clone https://github.com/ictsuzuki/playwright-ts-pom-boilerplate.git
 
 3.- Open a **New Terminal**
 
-4.- Navigate to ```deel_interview``` as project root
+4.- Navigate to ```playwright-ts-pom-boilerplate``` as project root
 
 5.- Create a ```.env``` file
 
